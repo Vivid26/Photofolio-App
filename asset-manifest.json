@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Photofolio-App/static/css/main.4fa532b7.css",
-    "main.js": "/Photofolio-App/static/js/main.d5636344.js",
+    "main.js": "/Photofolio-App/static/js/main.5324edd1.js",
     "static/media/photo1.png": "/Photofolio-App/static/media/photo1.5e2fa493fde222d4c1cf.png",
     "static/media/cover.jpg": "/Photofolio-App/static/media/cover.5fab266efd3dcc4cc089.jpg",
     "static/media/edit.png": "/Photofolio-App/static/media/edit.21622d04ce8af31a7190.png",
@@ -10,10 +10,10 @@
     "static/media/search.png": "/Photofolio-App/static/media/search.217f7941f58e9f5b10f4.png",
     "index.html": "/Photofolio-App/index.html",
     "main.4fa532b7.css.map": "/Photofolio-App/static/css/main.4fa532b7.css.map",
-    "main.d5636344.js.map": "/Photofolio-App/static/js/main.d5636344.js.map"
+    "main.5324edd1.js.map": "/Photofolio-App/static/js/main.5324edd1.js.map"
   },
   "entrypoints": [
     "static/css/main.4fa532b7.css",
-    "static/js/main.d5636344.js"
+    "static/js/main.5324edd1.js"
   ]
 }
