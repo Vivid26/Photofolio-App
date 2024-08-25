@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Photofolio-App/static/css/main.4fa532b7.css",
+    "main.js": "/Photofolio-App/static/js/main.cdbda8b0.js",
+    "static/media/photo1.png": "/Photofolio-App/static/media/photo1.5e2fa493fde222d4c1cf.png",
+    "static/media/edit.png": "/Photofolio-App/static/media/edit.21622d04ce8af31a7190.png",
+    "static/media/trash-bin.png": "/Photofolio-App/static/media/trash-bin.e2d7a73c365ba8d4c545.png",
+    "static/media/clear.png": "/Photofolio-App/static/media/clear.cc77b84be764a2795bc6.png",
+    "static/media/search.png": "/Photofolio-App/static/media/search.217f7941f58e9f5b10f4.png",
+    "index.html": "/Photofolio-App/index.html",
+    "main.4fa532b7.css.map": "/Photofolio-App/static/css/main.4fa532b7.css.map",
+    "main.cdbda8b0.js.map": "/Photofolio-App/static/js/main.cdbda8b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fa532b7.css",
+    "static/js/main.cdbda8b0.js"
+  ]
+}
