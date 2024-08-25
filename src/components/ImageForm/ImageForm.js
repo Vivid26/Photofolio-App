@@ -47,7 +47,11 @@ function ImageForm({ albumName, addImage, updateImage, imageToEdit, setImageToEd
 
     return (
         <div className={styles.imageForm}>
+            {
+            imageToEdit && imageToEdit.title ?
+            <span>Update image in {albumName} Album</span> :
             <span>Add image to {albumName} Album</span>
+            }
             <form>
                 <input required placeholder="Title" ref={titleRef} />
                 <input required placeholder="Image URL" ref={imageURLRef} />
