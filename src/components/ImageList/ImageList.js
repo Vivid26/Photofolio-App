@@ -77,6 +77,11 @@ export default function ImageList({ albumName, images, setOpenAlbum, setAlbum, a
         setSearch(false);
     }
 
+    const handleCancel = () => {
+        setShowImageForm(false)
+        setImageToEdit({});
+    }
+
     // Component Boilerplate
     return (
         <>
@@ -130,7 +135,7 @@ export default function ImageList({ albumName, images, setOpenAlbum, setAlbum, a
                 {
                     !showImageForm ?
                     <button className="false" onClick={() => setShowImageForm(true)}>Add image</button> : 
-                    <button className="false" onClick={() => setShowImageForm(false)}>Cancel</button>
+                    <button className="false" onClick={handleCancel}>Cancel</button>
                 }
 
             </div>

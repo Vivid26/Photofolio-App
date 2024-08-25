@@ -3,6 +3,9 @@ import { useRef } from "react";
 // CSS file import
 import styles from "./AlbumForm.module.css";
 
+// Thumbnails
+import albumCover from "../../ImageAssets/cover.jpg"
+
 // AlbumForm Component
 function AlbumForm({ addAlbum }) {
 
@@ -19,7 +22,7 @@ function AlbumForm({ addAlbum }) {
 
     const album = {
       albumName,
-      albumURL: "/assets/cover.jpg"
+      albumURL: albumCover
     }
 
     addAlbum(album);
