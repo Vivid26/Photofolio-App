@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", cursive;
+}
+
+
+.App_content {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.loading {
+    border-color: rgb(0, 204, 255);
+    border-width: 5px;
+    margin: 25% 25% 0 50%;
+}

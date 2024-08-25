@@ -1,0 +1,17 @@
+.navbar {
+    background-color: powderblue;
+    height: 70px;
+}
+
+.navbar_logo{
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    margin-left: 50px;
+}
+
+.navbar_logo img {
+    height: 111%;
+}

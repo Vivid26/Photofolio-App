@@ -1,0 +1,143 @@
+.top {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-block: 30px;
+}
+
+.top span {
+    align-items: center;
+    aspect-ratio: 1;
+    background-color: #fcfcfc;
+    border-radius: 50%;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .24);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    width: 50px;
+}
+
+.top span img {
+    width: 30px;
+}
+
+.top h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin:auto;
+}
+
+.search {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.search img {
+    cursor: pointer;
+    width: 30px;
+}
+
+.top button {
+    background-color: rgba(0, 119, 255, .1);
+    border: 2px solid #07f;
+    border-radius: 5px;
+    color: #07f;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.imageList {
+    grid-gap: 20px;
+    display: grid;
+    gap: 20px;
+    grid-auto-flow: row;
+    grid-auto-rows: 150px;
+    grid-template: repeat(1, 150px) / repeat(auto-fit, minmax(175px, .5fr));
+    margin-bottom: 50px;
+}
+
+.search input {
+    font-size: 1.1rem;
+    font-weight: 300;
+    outline: none;
+    padding: 5px 5px 5px 10px;
+}
+
+
+
+.image {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, .2);
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.image img {
+    height: 80%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.download {
+    display: flex;
+    max-width: 100%;
+}
+
+.download img {
+    max-width: 30px;
+}
+
+.update{
+    border: none;
+    display: none;
+    outline: none;
+    position: absolute;
+    right: 30px;
+    top: -15px;
+    transition: .3s;
+}
+
+.update:hover{
+    transform: scale(.95);
+}
+
+.update img {
+    width: 35px;
+}
+
+.delete{
+    border: none;
+    display: none;
+    outline: none;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    transition: .3s;
+}
+
+.delete:hover{
+    transform: scale(.95);
+}
+
+
+.delete img {
+    width: 35px;
+}
+
+.image:hover .update{
+    display:block;
+}
+.image:hover .delete{
+    display:block;
+}
