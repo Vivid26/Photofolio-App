@@ -1,4 +1,4 @@
-# HabitTracker
+# Photofolio
 ### [Live Photofolio App](https://vivid26.github.io/Photofolio-App/)
 
 A web application where user can store your photos in albums and add photos to it, edit, upade and remove it. User can view photos in the gallery and download it to their local machine easily.
